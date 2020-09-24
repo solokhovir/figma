@@ -1,0 +1,279 @@
+body{
+    padding: auto;
+    margin: auto;
+    width: 1219px;
+    /*box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;*/
+}
+
+/*.all{
+    padding-left: 55px;
+    padding-right: 55px;
+}*/
+
+.header{
+    position: fixed;
+    display: inline-block;
+    width: 1219px;
+    height: 84px;
+    color: #fff;
+    background-color: #007765;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    position: fixed;
+    width: 184px;
+    height: 45px;
+    padding: 20px 502px 19px 55px;
+    margin: 0;
+}
+
+.header_line{
+    padding-left: 741px;
+    padding-top: 1px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.problem{
+    text-decoration: none;
+    width: 129px;
+    height: 29px;
+    color: #fff;
+}
+
+.coin{
+    text-decoration: none;
+    width: 154px;
+    height: 29px;
+    color: #fff;
+}
+
+.team{
+    text-decoration: none;
+    width: 95px;
+    height: 29px;
+    color: #fff;
+}
+
+.cover{
+    margin: 0;
+    padding-top: 84px;
+    background-image: url("image.svg");
+    background-size: cover;
+    height: 403px;
+    color: #fff;
+}
+
+.cover_line{
+    color: #fff;
+    margin: auto;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 83px;
+    width: 1219px;
+    padding-top: 160px;
+}
+
+.main{
+    background-color: #eee;
+    height: 719px;
+}
+
+.problem_about{
+    margin: 0 auto;
+    padding-top: 48px;
+    color: #007765;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 1107px;
+    height: 75px;
+}
+
+.about{
+    color: black;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    width: 1110px;
+    height: 488px;
+    margin: 16px 54px 92px 55px;
+    text-align: left;
+}
+
+.sp1{
+    font-weight: 700;
+}
+
+.extra{
+    margin: 0;
+    padding: 0;
+    background-image: url("image_e.svg");
+    height: 483px;
+}
+
+.extra_line{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #fff;
+    width: 893px;
+    height: 228px;
+    padding: 128px 163px 127px 163px;
+    text-align: center;
+}
+
+.intr{
+    margin: 0;
+    padding: 0;
+    height: 604px;
+    background-color: #fff;
+}
+
+.intr_h{
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+    color: #007765;
+    text-align: center;
+    padding: 48px 54px 16px 55px;
+}
+
+.intr_text{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.it1{
+    width: 930px;
+    height: 110px;
+    padding-left: 218px;
+}
+
+.it2{
+    margin-left: 55px;
+    margin-right: 54px;
+}
+
+.sp2{
+    font-style: italic;
+}
+
+.logo_intr{
+    margin: 0;
+    padding: 0;
+    height: 115px;
+    width: 115px;
+    float: left;
+    margin-left: 55px;
+}
+
+.team_m{
+    margin: 0;
+    padding: 0;
+    height: 845px;
+    background-color: #eee;
+    display: inline-block;
+}
+
+.team_h{
+    margin: 0;
+    padding: 0;
+    padding-top: 48px;
+    width: 1219px;
+    height: 75px;
+    color: #007765;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.richard, .dinesh, .bertam, .jared, .monica, .nelson{
+    display: inline-block;
+    padding: 58px 91px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 350px;
+    height: 283px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.richard{
+    padding: 32px 30px 30px 55px;
+    margin-left: 55px;
+}
+
+.dinesh{
+    padding: 32px 30px 30px 30px;
+    margin-left: 30px;
+}
+
+.bertam{
+    padding: 32px 54px 30px 30px;
+    margin-left: 30px;
+}
+
+.jared{
+    padding: 30px 30px 94px 55px;
+    margin-left: 55px;
+}
+
+.monica{
+    padding: 30px 30px 94px 30px;
+    margin-left: 30px;
+}
+
+.nelson{
+    padding: 30px 54px 94px 30px;
+    margin-left: 30px;
+}
+
+.richard_img, .dinesh_img, .bertam_img, .jared_img, .monica_img, .nelson_img{
+    display: inline-block;
+    width: 168px;
+    height: 168px;
+}
+
+.team_font{
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team_font1{
+    color: #007765;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vault{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 176px;
+}
+
+.vault_txt{
+    width: 540px;
+    height: 64px;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 48px 339px 64px 340px;
+}
